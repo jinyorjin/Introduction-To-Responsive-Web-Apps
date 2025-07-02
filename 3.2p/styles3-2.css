@@ -1,0 +1,86 @@
+/* Global font settings */
+html {
+  font-family: "Righteous", Garamond, Georgia, sans;
+  font-size: 16px;
+}
+
+/* Body background and layout */
+body {
+  background-color: rgb(241, 255, 179);
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 1em 2em;
+  line-height: 1.4;
+}
+
+/* Heading fonts */
+h1,
+h2,
+h3 {
+  font-family: "Orbitron", Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: MediumSeaGreen;
+  color: white;
+  padding: 1.1rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+h2,
+h3 {
+  background-color: rgb(160, 204, 255);
+  color: rgb(51, 51, 51);
+  padding: 0.3em 0.8em;
+}
+
+/* Navigation */
+nav {
+  margin: 1.5em;
+  font-family: "Philosopher", Verdana, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1.5em;
+}
+
+nav a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* Optional section spacing */
+section {
+  margin: 1.8em;
+}
+
+/* Footer style */
+footer {
+  color: DarkRed;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  background-color: DarkSeaGreen;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+/* Add 0.1em margin to all footer paragraphs */
+footer p {
+  margin: 0.1em;
+}
+
+/* Highlighted span */
+.highlight {
+  background-color: LightPink;
+  font-weight: bold;
+}

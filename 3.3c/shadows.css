@@ -1,0 +1,6 @@
+h1,
+h2 {
+  box-shadow: 3px 3px 6px gray;
+  border: 1px solid #999;
+  border-radius: 8px;
+}

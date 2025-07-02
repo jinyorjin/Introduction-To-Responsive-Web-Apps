@@ -1,0 +1,126 @@
+/* Global font */
+html {
+  font-family: "Righteous", Garamond, Georgia, sans-serif;
+  font-size: 16px;
+}
+
+/* Body layout */
+body {
+  background-color: rgb(241, 255, 179);
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 1em 2em;
+  line-height: 1.4;
+  text-align: unset; /* Reset */
+}
+
+/* Headings */
+h1 {
+  background-image: url("Flower3.jpg"); /* imgsss */
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: transparent;
+  padding: 1rem;
+  color: white;
+  letter-spacing: 0.2em;
+  text-align: center;
+  border-radius: 1em;
+}
+
+h2 {
+  background-color: #a0ccff;
+  padding: 0.3em 0.8em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0682b1;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+nav a:hover {
+  color: #0682b1;
+  background-color: #ffffff;
+  border: 1px solid #0eb482;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/* Main content left aligned */
+main {
+  text-align: left;
+}
+
+/* Custom bullet with emoji */
+li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+li::before {
+  content: "✶"; /* You can change this emoji */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: palevioletred;
+  font-size: 1.1em;
+}
+
+/* Highlighted inline text */
+.highlight {
+  background-image: linear-gradient(to right, #ffcccc, #ffe6e6);
+  font-style: italic;
+}
+
+/* Standout list items */
+.standout {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* First letter in main paragraphs */
+main p::first-letter {
+  font-size: 200%;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  color: DarkRed;
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  background-color: DarkSeaGreen;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+footer p {
+  margin: 0.1em;
+}
